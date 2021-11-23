@@ -6,14 +6,14 @@ print("starting with number: ", number)
 print("Sequence is: ", end = ' ')
 
 while number > 1:
-  if number % 2:
-    number = number * 3 + 1
-  else:
-    number = number / 2
-  print(number, ",", end = ' ')
+	if number % 2:
+		number = number * 3 + 1
+	else:
+		number = number / 2
+	print(number, ",", end = ' ')
   
-  count += 1
+	count += 1
   
 else:
-  print()
-  print("Sequence is ", count, " number long")
+	print()
+	print("Sequence is ", count, " number long")

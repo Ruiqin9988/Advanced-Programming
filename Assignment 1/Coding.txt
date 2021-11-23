@@ -1,0 +1,10 @@
+~/anaconda3/etc/profile.d/conda.sh
+conda activate CloudComPy39
+export LD_LIBRARY_PATH=~/anaconda3/envs/CloudComPy39/lib:${LD_LIBRARY_PATH}
+export LD_LIBRARY_PATH=~/anaconda3/envs/CloudComPy39/lib/cloudcompare:${LD_LIBRARY_PATH}
+export LD_LIBRARY_PATH=~/anaconda3/envs/CloudComPy39/lib/cloudcompare/plugins:${LD_LIBRARY_PATH}
+~/anaconda3/envs/CloudComPy39/bin/CloudCompare
+cd ~/anaconda3/envs/CloudComPy39/doc/PythonAPI_test
+ctest
+. envPyCC.sh
+python3 test001.py

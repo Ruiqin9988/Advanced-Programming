@@ -1,0 +1,9 @@
+Installer package
+
+sudo apt-get install tesseract-ocr-eng
+sudo apt-get install tesseract-ocr-jpn 
+
+Print output 
+
+tesseract -l eng Picture1.png output-picture1
+tesseract -l jpn Picture2.png output-picture2
